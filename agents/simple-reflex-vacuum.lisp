@@ -1,5 +1,6 @@
 ;;;; Agent's actions: move(forward), rotate(90 deg clockwise), suck, wait
-;;;; Percepts: trash-p, touch-p
+;;;; Percepts: dirty-p, touch-p
+;;;; Agent's world is a 2x2 grid
 
 (defstruct percept
 	dirt-p

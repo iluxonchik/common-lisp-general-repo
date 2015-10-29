@@ -12,5 +12,4 @@
 	(cond 
 		((percept-dirt-p p) 'suck) 	 ; if it's dirty, move
 		((percept-touch-p p)'rotate) ; if touching the wall, rotate
-		(T 'move)
-	))
+		(T 'move)))
